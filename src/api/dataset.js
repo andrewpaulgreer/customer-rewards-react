@@ -1,4 +1,4 @@
-export default Data = ()=> {
+export default function() {
     return Promise.resolve(
         [
             {
@@ -9,13 +9,13 @@ export default Data = ()=> {
             },
             {
                 customer_id: 1,
-                money_spent: 100,
+                money_spent: 120,
                 name: "Andrew",
                 date: "10-07-2020" 
              },
              {
                 customer_id: 1,
-                money_spent: 45,
+                money_spent: 50,
                 name: "Andrew",
                 date: "11-07-2020" 
              },
@@ -35,8 +35,12 @@ export default Data = ()=> {
                 customer_id: 2,
                 money_spent: 300,
                 name: "John",
-                date: "10-07-2020" 
+                date: "11-07-2020" 
              }
         ]
-    )
-}
+    );
+};
+
+
+
+ 
